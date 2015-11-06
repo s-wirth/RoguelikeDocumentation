@@ -22,9 +22,10 @@
               The game is a very traditional Roguelike. It consists of a levelsystem, through which the player, has to fight their way to the top level.
               Each level has 4-5 sublevels. I.e. you have to get through the "Sewer Level", which consists of 5 levels itself, connected whith doors, stairs, etc.
               <br/>
-              You will choose a character at the beginning of the game, who you will level up through fighting and killing enemies and using items.
+              You will choose a character at the beginning of the game, who you will level up through fighting and killing enemies and using items. For simplicity there will be only one
+              character in the beginning.
               <br/>
-              Similiar games are Netscape, PixelDungeon, etc.
+              Similiar games are NetHack, PixelDungeon, etc.
               <br/>
               To begin with the game will include only one level, one hero type and the basic enemy types, to create a fully playable game with a proper code structure.
             </p>
@@ -40,21 +41,36 @@
             </p>
           </section>
           <section>
+
             <h3>Enemies</h3>
-            <p>
               <h4>Mutant Rat</h4>
               Rats that are abnormally big and agressive, due to the magical waste flushed down the sewer.
             <br/>
               Mutant Rats start off with 20 points health, no weapon(2dm) and no armor(1dmc).
             <br/>
-              <b>Drop:</b> Low amount of gold(s), Meat(o), Amulets(an)
-            </p>
-            <p>
+              <b>Drop:</b> Low amount of gold(s), Meat(o)
+
               <h4>Insane Outcast</h4>
               Poor souls that were abandoned by the villagers, because of their mental state.
-            <br/>
-              Insane Outcasts start with 30 points health, basic cloak
-            </p>
+              <br/>
+                Insane Outcasts start with 30 points health, basic cloak
+              <br/>
+              <b>Drop:</b> Insane Notes(s), Basic Cloak(s), Amulets(an)
+
+          </section>
+          <section>
+            <h3>Boss Fight</h3>
+              <p>
+                Villagers don't like the inhabitants of the sewer up in the city. So the pest control tries and make
+                sure that what lives down there, stays down there.
+              </p>
+              <h4>Pest Control</h4>
+                The Pest Control is a huge man in armor with a morning star.
+              <br/>
+                <b>Health:</b> 70 points
+                <b>DM:</b> average 7 points
+                <b>DMC: </b> average 5 points
+
           </section>
         </div>
 
@@ -63,6 +79,9 @@
             <li><h2>Legend:</h2></li>
             <li>dm - damage</li>
             <li>dmc - damage control</li>
+            <li>an - almost never (5%)</li>
+            <li>s - sometimes (15%)</li>
+            <li>o - often (30%)</li>
           </ul>
           <br/>
           <ul>
