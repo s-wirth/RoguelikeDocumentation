@@ -32,7 +32,7 @@ header{
 	height: 100%;
 	background: #fff;
 	overflow: auto;
-	order: 0;
+	order: 1;
 	flex: 4 1 auto;
 	align-self: auto;
 }
@@ -41,16 +41,17 @@ header{
 	background: #202020;
 	padding: 1%;
 	order: 0;
+	width: 20%;
 	flex: 2 1 auto;
 	align-self: stretch;
-	border-left: 12px solid #28b1b6;
+	border-right: 12px solid #28b1b6;
 	color: #efefef;
 }
 
 .side a {
 	color: #efefef;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .side li {
@@ -58,6 +59,7 @@ header{
 }
 
 section{
+	width: 70%;
 	margin: 3%;
 }
 
@@ -95,4 +97,8 @@ h3 {
 	width: 50%;
 	border-bottom: 2px dashed #28b1b6;
 	margin-bottom: 1%;
+}
+
+h4 {
+	margin-bottom: 3px;
 }
