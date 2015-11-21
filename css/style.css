@@ -37,6 +37,11 @@ header{
 	align-self: auto;
 }
 
+.content img {
+	height: 300px;
+	width: 300px;
+}
+
 .side {
 	background: #202020;
 	padding: 1%;
